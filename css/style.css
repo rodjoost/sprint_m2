@@ -1,0 +1,59 @@
+.titulo{
+  overflow: hidden;
+  background-image:linear-gradient(45deg, #55f1e7, #2424f0);
+  position: fixed;
+  z-index:1; 
+  top: 0;
+  width: 100%;
+  color: white;
+  padding-bottom: 10px;
+  
+}
+
+h2{
+  text-align: center;
+}
+
+.bondades {
+  padding-top: 180px;
+  text-align: justifyr;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+}
+
+/* link sin visitar */
+a:link {
+  color: black;
+}
+
+/* link visitado */
+a:visited {
+  color: black;
+}
+
+/* pasar mouse por arriba */
+a:hover {
+  color: red;
+}
+
+/* link seleccionado */
+a:active {
+  color: black;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+.navbar{
+  background-image:linear-gradient(45deg, #55f1e7, #2424f0);
+  z-index: 9;
+  position: fixed;
+}
+.nav-item {
+}
+.dropdown-menu {
+  background-image:linear-gradient(45deg, #55f1e7, #2424f0);
+}
